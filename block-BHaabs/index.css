@@ -28,11 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+body ,span{
 	line-height: 1.5;
-    font-family: 'Open Sans', sans-serif;
-font-family: 'Quicksand', sans-serif;
-    background-color: rgb(54, 59, 54);
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #282E2B;
 }
 ol, ul {
 	list-style: none;
@@ -53,14 +53,14 @@ table {
     max-width: 1000px;
     margin: 0 auto;
 }
-h1{
+h1,h2{
     padding: 40px 0;
     font-size: 42px;
     color: white;
     text-transform: capitalize;
     font-weight: 900;
-    text-shadow:0 5px 4px #000000;
-    font-family: 'Times New Roman', Times, serif;
+    text-shadow:0 8px 12px black;
+    font-family: "Source serif pro", serif;
 
 }
 .flex{
@@ -69,11 +69,11 @@ h1{
     font-size: 28px;
     padding: 30px 0;
     font-weight: bolder;
+    align-items: center;
 }
 .tagged{
-    color: rgb(202, 22, 67);
-    
-    
+    color: #CF403E;
+      
 }
 .date{
     color: white;
